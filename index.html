@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Pelas Masmorras</title>
+    </head>
+    <body>
+        <audio id="audio" controls="controls" autoplay="autoplay" loop="loop" muted>
+            <source src="mt.mp3" type="audio/mp3"/>
+        </audio>
+        <main>
+            <div class="passo ativo" id="passo-0">
+                <img src="img/cenario0.png" alt="" />
+                <p>
+                    Você se encontra em um corredor de pedras no subsolo
+                    medieval, que lado você decide ir?
+                </p>
+                <div id="container-buttons">
+                    <button class="btn-proximo" data-proximo="1">
+                        ESQUERDA
+                    </button>
+                    <button class="btn-proximo" data-proximo="2">
+                        DIREITA
+                    </button>
+                </div>
+            </div>
+            <div class="passo" id="passo-1">
+                <img src="img/cenario1.png" alt="" />
+                <p>
+                    Você se depara com uma estatua de uma mulher com os olhos
+                    cheios de sangue.
+                </p>
+                <div id="container-buttons">
+                    <button class="btn-proximo" data-proximo="3">
+                        Analisar a estátua
+                    </button>
+                    <button class="btn-proximo" data-proximo="2">
+                        Voltar para a direita
+                    </button>
+                </div>
+            </div>
+            <div class="passo" id="passo-2">
+                <img src="img/cenario2.png" alt="" />
+                <p>
+                    Após um longo tempo andando, você encontra uma curva com uma
+                    porta estreita à sua direita.
+                </p>
+                <div id="container-buttons">
+                    <button class="btn-proximo" data-proximo="4">
+                        Virar para a direita
+                    </button>
+                    <button class="btn-proximo" data-proximo="5">
+                        Seguir em frente
+                    </button>
+                </div>
+            </div>
+            <div class="passo" id="passo-3">
+                <img src="img/cenario3.png" alt="" />
+                <p>
+                    A estátua era suja e aterrorizante. Mas após olha-la por um
+                    tempo, ela dá um passo à frente e agarra o seu pescoço. Você
+                    tenta se soltar, mas ela tem a forças das pedras que a
+                    fizeram. Você acaba morrendo nas masmorras
+                </p>
+            </div>
+            <div class="passo" id="passo-4">
+                <img src="img/cenario4.png" alt="" />
+                <p>
+                    Você continua andando por aquele corredor estreito, e após
+                    um tempo a sua tocha começa a não fazer efeito, por que à
+                    sua frente se encontrava a luz da escadaria que você usou
+                    para sua salvação.
+                </p>
+            </div>
+            <div class="passo" id="passo-5">
+                <img src="img/cenario5.png" alt="" />
+                <p>
+                    Você continua andando em frente e fica sem saída, no canto
+                    você encontra uma boneca rasgada feita com a espiga de um
+                    milho que guarda em sua bolsa.
+                </p>
+                <div id="container-buttons">
+                    <button class="btn-proximo" data-proximo="4">
+                        Voltar para o corredor estreito
+                    </button>
+                    <button class="btn-proximo" data-proximo="6">
+                        Ir para a esquerda
+                    </button>
+                </div>
+            </div>
+            <div class="passo" id="passo-6">
+                <img src="img/cenario6.png" alt="" />
+                <p id="final6">
+                    Você encontra uma estátua de uma mulher com chifres no lugar
+                    dos olhos, vem andando devagar em sua direção, e chegando em
+                    você ela para repentinamente. Ela olha para a cabeça da
+                    boneca que estava em sua bolsa, e seu chifres começam a se
+                    desfazer e após um luz muito forte, você desmaia. Acordando
+                    do desmaio, você se encontra em na frente de sua casa,
+                    deitado no chão, com a boneca na mão.
+                </p>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

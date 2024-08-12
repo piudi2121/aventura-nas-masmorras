@@ -1,0 +1,68 @@
+@font-face {
+    font-family: alsina;
+    src: url("./Alsina Ultrajada.ttf");
+}
+
+main {
+    max-width: 90%;
+}
+
+img {
+    max-width: 50%;
+}
+
+body {
+    text-align: center;
+    user-select: none;
+    font-family: alsina;
+    font-size: 32px;
+    color: white;
+    background-color: #404040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#final6 {
+    font-size: 24px;
+}
+
+#container-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: gray;
+    font-family: alsina;
+    font-size: 32px;
+    color: black;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+audio {
+    display: none;
+}
